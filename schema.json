@@ -1,0 +1,1225 @@
+[
+ {
+   "name": "advertiser_id",
+   "type": "STRING"
+ },
+ {
+   "name": "data_group_id",
+   "type": "STRING"
+ },
+ {
+   "name": "data_group_name",
+   "type": "STRING"
+ },
+ {
+   "name": "description",
+   "type": "STRING"
+ },
+ {
+   "name": "is_sharable",
+   "type": "INTEGER"
+ },
+ {
+   "name": "first_party_data_ids",
+   "type": "STRING"
+ },
+ {
+   "name": "third_party_data_ids",
+   "type": "STRING"
+ },
+ {
+   "name": "skip_unauthorized_third_party_data",
+   "type": "INTEGER"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "partner_id",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_id",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_name",
+   "type": "STRING"
+ },
+ {
+   "name": "description",
+   "type": "STRING"
+ },
+ {
+   "name": "currency_code",
+   "type": "STRING"
+ },
+ {
+   "name": "attribution_click_lookback_window_in_seconds",
+   "type": "INTEGER"
+ },
+ {
+   "name": "attribution_impression_lookback_window_in_seconds",
+   "type": "INTEGER"
+ },
+ {
+   "name": "click_dedup_window_in_seconds",
+   "type": "INTEGER"
+ },
+ {
+   "name": "conversion_dedup_window_in_seconds",
+   "type": "INTEGER"
+ },
+ {
+   "name": "default_right_media_offer_type_id",
+   "type": "INTEGER"
+ },
+ {
+   "name": "industry_category_id",
+   "type": "INTEGER"
+ },
+ {
+   "name": "keywords",
+   "type": "STRING"
+ },
+ {
+   "name": "availability",
+   "type": "STRING"
+ },
+ {
+   "name": "logo_url",
+   "type": "STRING"
+ },
+ {
+   "name": "domain_address",
+   "type": "STRING"
+ },
+ {
+   "name": "custom_labels",
+   "type": "STRING"
+ },
+ {
+   "name": "is_dimensional_bidding_mode_supported",
+   "type": "INTEGER"
+ },
+ {
+   "name": "associated_bid_lists",
+   "type": "STRING"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "abi_brand",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "name": "abi_brand_code",
+   "type": "STRING",
+   "mode": "NULLABLE"
+ },
+ {
+   "name": "is_used",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER",
+   "mode": "NULLABLE"
+ }
+]
+[
+ {
+   "name": "budget",
+   "type": "STRING"
+ },
+ {
+   "name": "budget_in_impressions",
+   "type": "INTEGER"
+ },
+ {
+   "name": "daily_budget",
+   "type": "STRING"
+ },
+ {
+   "name": "daily_budget_in_impressions",
+   "type": "INTEGER"
+ },
+ {
+   "name": "start_date",
+   "type": "STRING"
+ },
+ {
+   "name": "end_date",
+   "type": "STRING"
+ },
+ {
+   "name": "auto_allocator_enabled",
+   "type": "INTEGER"
+ },
+ {
+   "name": "pacing_mode",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_flights",
+   "type": "STRING"
+ },
+ {
+   "name": "custom_labels",
+   "type": "STRING"
+ },
+ {
+   "name": "custom_cpa_type",
+   "type": "STRING"
+ },
+ {
+   "name": "custom_cpa_click_weight",
+   "type": "FLOAT"
+ },
+ {
+   "name": "custom_cpa_viewthrough_weight",
+   "type": "FLOAT"
+ },
+ {
+   "name": "associated_bid_lists",
+   "type": "STRING"
+ },
+ {
+   "name": "current_and_future_additional_fee_cards",
+   "type": "STRING"
+ },
+ {
+   "name": "additional_fee_card_on_create",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_type",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_id",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_id",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_name",
+   "type": "STRING"
+ },
+ {
+   "name": "description",
+   "type": "STRING"
+ },
+ {
+   "name": "partner_cost_percentage_fee",
+   "type": "FLOAT"
+ },
+ {
+   "name": "partner_cpm_fee",
+   "type": "STRING"
+ },
+ {
+   "name": "partner_cpc_fee",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_conversion_reporting_columns",
+   "type": "STRING"
+ },
+ {
+   "name": "availability",
+   "type": "STRING"
+ },
+ {
+   "name": "ctv_targeting_and_attribution",
+   "type": "INTEGER"
+ },
+ {
+   "name": "created_at_utc",
+   "type": "STRING"
+ },
+ {
+   "name": "last_updated_at_utc",
+   "type": "STRING"
+ },
+ {
+   "name": "purchase_order_number",
+   "type": "STRING"
+ },
+ {
+   "name": "timezone",
+   "type": "STRING"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "abi_format",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_format_code",
+   "type": "STRING"
+ },
+ {
+   "name": "is_used",
+   "type": "INTEGER"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "abi_gender",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_gender_code",
+   "type": "STRING"
+ },
+ {
+   "name": "is_used",
+   "type": "INTEGER"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "td_global_id",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_ttd_id",
+   "type": "STRING"
+ },
+ {
+   "name": "td_url",
+   "type": "STRING"
+ },
+ {
+   "name": "td_ip",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_city",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_district",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_marketingactivation",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_tcpp",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_consent_date",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_medium",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_source",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_content",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_term",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_latitude",
+   "type": "FLOAT"
+ },
+ {
+   "name": "abi_longitude",
+   "type": "FLOAT"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "td_global_id",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_ttd_id",
+   "type": "STRING"
+ },
+ {
+   "name": "td_url",
+   "type": "STRING"
+ },
+ {
+   "name": "td_ip",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_city",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_district",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_medium",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_source",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_content",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_utm_term",
+   "type": "STRING"
+ },
+ {
+   "name": "has_roulette",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_latitude",
+   "type": "FLOAT"
+ },
+ {
+   "name": "abi_longitude",
+   "type": "FLOAT"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+[
+ {
+   "name": "td_global_id",
+   "type": "STRING"
+ },
+ {
+   "name": "td_ip",
+   "type": "STRING"
+ },
+ {
+   "name": "td_ua",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_device_id",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_id",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_id",
+   "type": "STRING"
+ },
+ {
+   "name": "adgroup_id",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_datasource",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_attribute2",
+   "type": "STRING"
+ },
+ {
+   "name": "tap_is_link",
+   "type": "STRING"
+ },
+ {
+   "name": "pli",
+   "type": "STRING"
+ },
+ {
+   "name": "gdpr",
+   "type": "STRING"
+ },
+ {
+   "name": "gdpr_consent",
+   "type": "STRING"
+ },
+ {
+   "name": "adid",
+   "type": "STRING"
+ },
+ {
+   "name": "ord",
+   "type": "STRING"
+ },
+ {
+   "name": "segment_id",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_age",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_creative",
+   "type": "STRING"
+ },
+ {
+   "name": "https_bs_serving_sys_com_serving_adserver_bs_cn_trd_pli_1076961599_gdpr_gdpr_gdpr_consent_gdpr_consent_68_adid_1084468187_ord_ti",
+   "type": "STRING"
+ },
+ {
+   "name": "https_3a_2f_2fbs_serving_sys_com_2fserving_2fadserver_bs_3fcn_3dtrd_26pli_3d1076961599_26gdpr_3d_24_7bgdpr_7d_26gdpr_consent_3d_",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_de",
+   "type": "STRING"
+ },
+ {
+   "name": "adver",
+   "type": "STRING"
+ },
+ {
+   "name": "td_re",
+   "type": "STRING"
+ },
+ {
+   "name": "utm_medium",
+   "type": "STRING"
+ },
+ {
+   "name": "utm_source",
+   "type": "STRING"
+ },
+ {
+   "name": "utm_campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "utm_term",
+   "type": "STRING"
+ },
+ {
+   "name": "utm_content",
+   "type": "STRING"
+ },
+ {
+   "name": "td_i",
+   "type": "STRING"
+ },
+ {
+   "name": "t",
+   "type": "STRING"
+ },
+ {
+   "name": "td",
+   "type": "STRING"
+ },
+ {
+   "name": "adverti",
+   "type": "STRING"
+ },
+ {
+   "name": "it_id",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_gender",
+   "type": "STRING"
+ },
+ {
+   "name": "campai",
+   "type": "STRING"
+ },
+ {
+   "name": "https_3a_2f_2fbs_serving_sys_com_2fserving_2fadserver_bs_3fcn_3dtrd_26pli_3d1077270360_26gdpr_3d_24_7bgdpr_7d_26gdpr_consent_3d_",
+   "type": "STRING"
+ },
+ {
+   "name": "https_bs_serving_sys_com_serving_adserver_bs_cn_trd_pli_1077270360_gdpr_gdpr_gdpr_consent_gdpr_consent_68_adid_1085315787_ord_ti",
+   "type": "STRING"
+ },
+ {
+   "name": "ab",
+   "type": "STRING"
+ },
+ {
+   "name": "td_global_",
+   "type": "STRING"
+ },
+ {
+   "name": "redirect",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign_",
+   "type": "STRING"
+ },
+ {
+   "name": "language",
+   "type": "STRING"
+ },
+ {
+   "name": "timezone",
+   "type": "STRING"
+ },
+ {
+   "name": "countryid",
+   "type": "STRING"
+ },
+ {
+   "name": "appid",
+   "type": "STRING"
+ },
+ {
+   "name": "platformtype",
+   "type": "STRING"
+ },
+ {
+   "name": "iswebview",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_attribute1",
+   "type": "STRING"
+ },
+ {
+   "name": "adv",
+   "type": "STRING"
+ },
+ {
+   "name": "ca",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_dataso",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_attribute2_1",
+   "type": "STRING"
+ },
+ {
+   "name": "adgroup_i",
+   "type": "STRING"
+ },
+ {
+   "name": "adgr",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_a",
+   "type": "STRING"
+ },
+ {
+   "name": "td_",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_attrib",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_d",
+   "type": "STRING"
+ },
+ {
+   "name": "tblci",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_datasour",
+   "type": "STRING"
+ },
+ {
+   "name": "oborigurl",
+   "type": "STRING"
+ },
+ {
+   "name": "wp",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_attribut",
+   "type": "STRING"
+ },
+ {
+   "name": "ad",
+   "type": "STRING"
+ },
+ {
+   "name": "rcxt",
+   "type": "STRING"
+ },
+ {
+   "name": "rgz",
+   "type": "STRING"
+ },
+ {
+   "name": "rlangs",
+   "type": "STRING"
+ },
+ {
+   "name": "said",
+   "type": "STRING"
+ },
+ {
+   "name": "sfe",
+   "type": "STRING"
+ },
+ {
+   "name": "sig",
+   "type": "STRING"
+ },
+ {
+   "name": "svpid",
+   "type": "STRING"
+ },
+ {
+   "name": "td_s",
+   "type": "STRING"
+ },
+ {
+   "name": "uhow",
+   "type": "STRING"
+ },
+ {
+   "name": "vpb",
+   "type": "STRING"
+ },
+ {
+   "name": "vrtd",
+   "type": "STRING"
+ },
+ {
+   "name": "campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_attribu",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_dev",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_id_1",
+   "type": "STRING"
+ },
+ {
+   "name": "adve",
+   "type": "STRING"
+ },
+ {
+   "name": "us_privacy",
+   "type": "STRING"
+ },
+ {
+   "name": "td_glo",
+   "type": "STRING"
+ },
+ {
+   "name": "td_g",
+   "type": "STRING"
+ },
+ {
+   "name": "deviceid",
+   "type": "STRING"
+ },
+ {
+   "name": "timestamp",
+   "type": "STRING"
+ },
+ {
+   "name": "sign",
+   "type": "STRING"
+ },
+ {
+   "name": "userid",
+   "type": "STRING"
+ },
+ {
+   "name": "nonce",
+   "type": "STRING"
+ },
+ {
+   "name": "logintoken",
+   "type": "STRING"
+ },
+ {
+   "name": "userid1",
+   "type": "STRING"
+ },
+ {
+   "name": "gender",
+   "type": "STRING"
+ },
+ {
+   "name": "userroles",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_att",
+   "type": "STRING"
+ },
+ {
+   "name": "testid",
+   "type": "STRING"
+ },
+ {
+   "name": "advertise",
+   "type": "STRING"
+ },
+ {
+   "name": "td_global_i",
+   "type": "STRING"
+ },
+ {
+   "name": "abi",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_dat",
+   "type": "STRING"
+ },
+ {
+   "name": "advert",
+   "type": "STRING"
+ },
+ {
+   "name": "a",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_device_id_3",
+   "type": "STRING"
+ },
+ {
+   "name": "dicbo",
+   "type": "STRING"
+ },
+ {
+   "name": "merged_from_test_dataset_for_ttd_import",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_ttd_id",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_has_app_targeting",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_brand_category",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interest",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_campaign",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargeting",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_target",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interest1",
+   "type": "STRING"
+ },
+ {
+   "name": "td_red",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_",
+   "type": "STRING"
+ },
+ {
+   "name": "c",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_device_id_1",
+   "type": "STRING"
+ },
+ {
+   "name": "segmen",
+   "type": "STRING"
+ },
+ {
+   "name": "cam",
+   "type": "STRING"
+ },
+ {
+   "name": "segment",
+   "type": "STRING"
+ },
+ {
+   "name": "seg",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_datas",
+   "type": "STRING"
+ },
+ {
+   "name": "td_ip_3",
+   "type": "STRING"
+ },
+ {
+   "name": "advertiser_id_2",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_devic",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_brand_variant",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_brand",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_format",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interest2",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interest3",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interest4",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interest5",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_target1",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargeting1",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargeting2",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargeting3",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargeting4",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargeting5",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_target2",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_retail",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_retail1",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_target3",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_time",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_target4",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_target5",
+   "type": "STRING"
+ },
+ {
+   "name": "ts",
+   "type": "STRING"
+ },
+ {
+   "name": "afh",
+   "type": "STRING"
+ },
+ {
+   "name": "cki",
+   "type": "STRING"
+ },
+ {
+   "name": "disableglobalinfocollect",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_i",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_c",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_brand_c",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_ta",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_interes",
+   "type": "STRING"
+ },
+ {
+   "name": "td_rget_track_clk_imp",
+   "type": "STRING"
+ },
+ {
+   "name": "ag",
+   "type": "STRING"
+ },
+ {
+   "name": "crid",
+   "type": "STRING"
+ },
+ {
+   "name": "cf",
+   "type": "STRING"
+ },
+ {
+   "name": "fq",
+   "type": "STRING"
+ },
+ {
+   "name": "rcats",
+   "type": "STRING"
+ },
+ {
+   "name": "mcat",
+   "type": "STRING"
+ },
+ {
+   "name": "mste",
+   "type": "STRING"
+ },
+ {
+   "name": "mfld",
+   "type": "STRING"
+ },
+ {
+   "name": "mssi",
+   "type": "STRING"
+ },
+ {
+   "name": "mfsi",
+   "type": "STRING"
+ },
+ {
+   "name": "sv",
+   "type": "STRING"
+ },
+ {
+   "name": "agsa",
+   "type": "STRING"
+ },
+ {
+   "name": "dt",
+   "type": "STRING"
+ },
+ {
+   "name": "osf",
+   "type": "STRING"
+ },
+ {
+   "name": "os",
+   "type": "STRING"
+ },
+ {
+   "name": "br",
+   "type": "STRING"
+ },
+ {
+   "name": "mlang",
+   "type": "STRING"
+ },
+ {
+   "name": "did",
+   "type": "STRING"
+ },
+ {
+   "name": "tmpc",
+   "type": "STRING"
+ },
+ {
+   "name": "osi",
+   "type": "STRING"
+ },
+ {
+   "name": "osv",
+   "type": "STRING"
+ },
+ {
+   "name": "daid",
+   "type": "STRING"
+ },
+ {
+   "name": "dnr",
+   "type": "STRING"
+ },
+ {
+   "name": "dur",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotargetin",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_t",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_gende",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geota",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_brand_cat",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_targ",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_cr",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geo",
+   "type": "STRING"
+ },
+ {
+   "name": "abi_geotarget",
+   "type": "STRING"
+ },
+ {
+   "name": "tail",
+   "type": "STRING"
+ },
+ {
+   "name": "nt_medium",
+   "type": "STRING"
+ },
+ {
+   "name": "nt_detail",
+   "type": "STRING"
+ },
+ {
+   "name": "nt_keyword",
+   "type": "STRING"
+ },
+ {
+   "name": "time",
+   "type": "INTEGER"
+ }
+]
+
+kor_ttd_adgroups_master
+kor_ttd_advertisers_master
+kor_ttd_brands_master
+kor_ttd_campaigns_master
+kor_ttd_creativeformats_master
+kor_ttd_genders_master
+kor_ttd_ids_clickers_raw
+kor_ttd_ids_visitors_raw
+kor_ttd_tracking_raw
+
