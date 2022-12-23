@@ -1,3 +1,4 @@
+kor_ttd_adgroups_master
 [
  {
    "name": "advertiser_id",
@@ -36,6 +37,8 @@
    "type": "INTEGER"
  }
 ]
+
+kor_ttd_advertisers_master
 [
  {
    "name": "partner_id",
@@ -114,6 +117,7 @@
    "type": "INTEGER"
  }
 ]
+kor_ttd_brands_master
 [
  {
    "name": "abi_brand",
@@ -136,6 +140,7 @@
    "mode": "NULLABLE"
  }
 ]
+kor_ttd_campaigns_master
 [
  {
    "name": "budget",
@@ -266,6 +271,7 @@
    "type": "INTEGER"
  }
 ]
+kor_ttd_creativeformats_master
 [
  {
    "name": "abi_format",
@@ -284,6 +290,7 @@
    "type": "INTEGER"
  }
 ]
+kor_ttd_genders_master
 [
  {
    "name": "abi_gender",
@@ -302,6 +309,7 @@
    "type": "INTEGER"
  }
 ]
+kor_ttd_ids_clickers_raw
 [
  {
    "name": "td_global_id",
@@ -376,6 +384,7 @@
    "type": "INTEGER"
  }
 ]
+kor_ttd_ids_visitors_raw
 [
  {
    "name": "td_global_id",
@@ -442,6 +451,7 @@
    "type": "INTEGER"
  }
 ]
+kor_ttd_tracking_raw
 [
  {
    "name": "td_global_id",
@@ -1212,14 +1222,4 @@
    "type": "INTEGER"
  }
 ]
-
-kor_ttd_adgroups_master
-kor_ttd_advertisers_master
-kor_ttd_brands_master
-kor_ttd_campaigns_master
-kor_ttd_creativeformats_master
-kor_ttd_genders_master
-kor_ttd_ids_clickers_raw
-kor_ttd_ids_visitors_raw
-kor_ttd_tracking_raw
 
